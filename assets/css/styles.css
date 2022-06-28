@@ -1,0 +1,122 @@
+:root {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    box-sizing: border-box;
+}
+
+/* Header Div Styles */
+
+header {
+    display: flex;
+    background-color: #07193A;
+    width: 100vw;
+    min-height: min-content;
+    height: 20vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+/* Start button styling */
+
+#startbutton {
+    color: #000000;
+    background-color: #DABB78;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#startbutton:hover {
+    opacity: .8;
+}
+
+/* Main div stylings */
+
+main {
+    background-color: blanchedalmond;
+    width: 100vw;
+    height: 80vh;
+}
+
+/* Game Screen div stylings */
+
+#gamescreen {
+    display: flex;
+    margin: 50px;
+    width: 50vw;
+    height: 60vh;
+    background-color: #D9BE8B;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid white;
+}
+
+#scorescreen {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 40vw;
+    height: 60vh;
+    background-color: #D9BE8B;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items:flex-end;
+    border: 10px solid white;
+}
+
+#winslosses {
+    display: inline;
+    height: 200px;
+    width: 300px;
+    float: left;
+    background-color: red;
+}
+
+#testspan {
+    height: 200px;
+    width: 300px;
+    float: right;
+    background-color: blue;
+}
+
+#timerscreen {
+    display: flex;
+    margin: 10px;
+    width: 90%;
+    height: 50%;
+    background-color: #07193A;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+}
